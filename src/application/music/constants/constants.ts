@@ -1,0 +1,1 @@
+export const FAVOURITE_PLAYLIST_ID = '__favourite_Playlist__'
