@@ -11,17 +11,15 @@ import {
 
 function App() {
   return (
-    <>
-      <Routes>
-        <Route element={<Login />} path="/" />
-        <Route element={<Dashboard />} path="/my-music/*">
-          <Route element={<Home />} path="*" />
-          <Route element={<Playlists />} path="playlists" />
-          <Route element={<Favourites />} path="favourites" />
-          <Route element={<Search />} path="search" />
-        </Route>
-      </Routes>
-    </>
+    <Routes>
+      <Route element={<Login />} path="/" />
+      <Route element={<Dashboard />} path="/my-music/*">
+        <Route element={<Home />} path="*" />
+        <Route element={<Playlists />} path="playlists" />
+        <Route element={<Favourites />} path="favourites" />
+        <Route element={<Search />} path="search" />
+      </Route>
+    </Routes>
   );
 }
 
