@@ -8,8 +8,6 @@ import {
 function Card() {
   const { songsList } = useSelector((state: MusicAppState) => state);
 
-  console.log(songsList[0]);
-
   return (
     <div style={{ height: "40px" }}>
       <img

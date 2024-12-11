@@ -12,7 +12,7 @@ function Sidebar() {
         className="d-flex rounded-circle bg-secondary justify-content-center align-items-center"
         style={{ width: "60px", height: "60px" }}
       >
-        <p className="">BB</p>
+        <p>BB</p>
       </div>
 
       <nav className="d-flex flex-column">
